@@ -10,7 +10,7 @@ int main(void) {
     FILE* pKeyFile = NULL;  // pointer to ket.txt handle
 
     printf("[START] Cursor Lock Starting!\n"
-           "Reading key.txt... ");
+           "[INFO] Reading key.txt... ");
 
     pKeyFile = fopen("./key.txt", "r");
 
